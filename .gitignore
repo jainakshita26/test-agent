@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Builds
+build/
+dist/
+*/build/
+
+# Env (see *.env.example)
+.env
+.env.local
+
+# Logs & coverage
+*.log
+npm-debug.log*
+coverage/
+
+# Test artifacts
+testing/test-screenshots/
+test-screenshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Docker volumes live outside the repo; never commit data dirs
+mongodb_data/
+qdrant_data/
